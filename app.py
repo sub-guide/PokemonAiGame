@@ -52,7 +52,7 @@ if prompt := st.chat_input("프롬프트를 입력하세요..."):
     # AI의 답변 받아오기
     with st.chat_message("assistant"):
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model="gemini-2.0-flash",
             contents=prompt,
             config={
                 "system_instruction": system_instruction,
