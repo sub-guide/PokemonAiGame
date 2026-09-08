@@ -19,8 +19,8 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # 2. 이미지 및 GIF 파일 경로 설정 (app.py와 같은 폴더 위치)
-IMG_PIKACHU = "image_f5ce03.png"  # 평소 변신 상태 (피카츄 이미지)
-GIF_DITTO = "ditto.gif"          # 들통났을 때 (메타몽 GIF)
+IMG_PIKACHU = "pikachu.jpg"  # 평소 변신 상태 (피카츄 JPG 이미지)
+GIF_DITTO = "ditto.gif"      # 들통났을 때 (메타몽 GIF)
 
 # 3. 세션 상태 초기화
 if "messages" not in st.session_state:
